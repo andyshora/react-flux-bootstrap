@@ -1,0 +1,13 @@
+/**
+ * @author Andy Shora
+ *
+**/
+
+* {
+  @include prefix(box-sizing, border-box);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html, body {
+  min-width: $breakpoint-tiny;
+}
