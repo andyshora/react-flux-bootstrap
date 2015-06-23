@@ -27,7 +27,16 @@
     "harmonize": "^1.4.0",
     "react": "^0.13.2",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^2.3.0"
+    "watchify": "^2.3.0",
+
+
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "eslint-plugin-react": "^2.3.0",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -36,6 +45,10 @@
     "transform": [
       "babelify"
     ]
+  },
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
   },
   "author": "Andy Shora <andyshora@gmail.com>",
   "license": "MIT"
