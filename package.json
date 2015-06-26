@@ -1,7 +1,21 @@
 {
   "name": "react-flux-bootstrap",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "alt": "^0.16.10",
+    "babel": "^5.1.11",
+    "classnames": "^2.1.1",
+    "express": "^4.12.3",
+    "iso": "^4.1.0",
+    "lodash": "~3.9.3",
+    "marked": "^0.3.3",
+    "node-fetch": "^1.2.1",
+    "object-assign": "^2.0.0",
+    "react": "^0.13.2",
+    "serve-favicon": "^2.2.1",
+    "whatwg-fetch": "^0.8.1",
+    "d3": "~3.5.5"
+  },
   "description": "A starter template for an isomorphic web app, using Node, React + flux and SASS.",
   "homepage": "https://github.com/andyshora/react-flux-bootstrap",
   "repository": {
@@ -41,20 +55,6 @@
     "url-loader": "^0.5.5",
     "webpack": "^1.9.10",
     "webpack-dev-server": "^1.8.2"
-  },
-  "dependencies": {
-    "alt": "^0.16.10",
-    "babel": "^5.1.11",
-    "classnames": "^2.1.1",
-    "express": "^4.12.3",
-    "iso": "^4.1.0",
-    "lodash": "^3.9.3",
-    "marked": "^0.3.3",
-    "node-fetch": "^1.2.1",
-    "object-assign": "^2.0.0",
-    "react": "^0.13.2",
-    "serve-favicon": "^2.2.1",
-    "whatwg-fetch": "^0.8.1"
   },
   "keywords": [
     "react",
